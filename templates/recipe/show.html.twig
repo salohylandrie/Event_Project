@@ -1,0 +1,10 @@
+ {% extends 'base.html.twig' %}
+
+ {% block title %}
+ Les recettes {{ slug }} de 
+ {% endblock %}
+
+ {% block body %}
+{{ slug | upper}} de 
+{{ prenom.name ~ prenom.firstname | raw }}
+ {% endblock %}
